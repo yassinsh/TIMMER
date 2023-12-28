@@ -1,0 +1,48 @@
+html {
+    background-image: url("https://4kwallpapers.com/images/walls/thumbs_3t/13127.jpg");
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: rgba(255, 255, 255, 0.719);
+    text-align: center;
+    font-size: 150px;
+}
+
+button {
+    padding: 15px 35px;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 25px;
+    background-color: transparent;
+    border: solid 2px rgba(255, 255, 255, 0.719);
+    color: rgba(255, 255, 255, 0.719);
+
+}
+
+button:hover {
+    box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+    transform: translateY(-0.25em);
+}
+
+.pulse:hover,
+.pulse:focus {
+    color: slateblue;
+}
+
+.raise:hover,
+.raise:focus {
+    color: #fc3;
+
+}
+
+.offset:hover {
+    color: rgb(148, 39, 39);
+
+}
